@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'pagu';
+  src: url(../font/pugnomincho-mini.otf);
+}
+
+* {
+
+}
+
+body {
+  font-family: 'pagu';
+  background-color: #ffb0c4;
+  text-align: center;
+}
+
+.all {
+  position: relative;
+}
+
+.all .title {
+  position: relative;
+  top: 50px;
+  font-size: 140px;
+  text-align: center;
+  color: white;
+}
+
+.all .img-1 {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  aspect-ratio: 5/3;
+}
+
+.all .img-1 img {
+  width: 60%;
+  height: auto;
+}
