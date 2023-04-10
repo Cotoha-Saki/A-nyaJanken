@@ -11,6 +11,8 @@ body {
   font-family: 'pagu';
   background-color: #ffb0c4;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .all {
@@ -19,7 +21,7 @@ body {
 
 .all .title {
   position: relative;
-  top: 50px;
+  top: 100px;
   font-size: 140px;
   text-align: center;
   color: white;
@@ -28,11 +30,10 @@ body {
 .all .img-1 {
   position: relative;
   text-align: center;
-  top: 100px;
+  top: 200px;
   aspect-ratio: 5/3;
 }
 
 .all .img-1 img {
   width: 60%;
-  height: auto;
 }
